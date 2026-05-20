@@ -1,0 +1,66 @@
+T41C4 000:351.115   SEGGER J-Link V7.92k Log File
+T41C4 000:351.332   DLL Compiled: Oct 18 2023 14:58:31
+T41C4 000:351.338   Logging started @ 2025-05-27 11:26
+T41C4 000:351.343   Process: C:\Keil_v5\UV4\UV4.exe
+T41C4 000:351.352 - 351.349ms
+T41C4 000:351.362 JLINK_SetWarnOutHandler(...)
+T41C4 000:351.368 - 0.006ms
+T41C4 000:351.375 JLINK_OpenEx(...)
+T41C4 000:353.542   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T41C4 000:354.469   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T41C4 000:358.858   Hardware: V7.00
+T41C4 000:358.874   S/N: 20090928
+T41C4 000:358.882   OEM: SEGGER
+T41C4 000:358.890   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T41C4 000:359.425   Bootloader: (Could not read)
+T41C4 000:360.691   TELNET listener socket opened on port 19021
+T41C4 000:360.939   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T41C4 000:361.035   WEBSRV Webserver running on local port 19080
+T41C4 000:361.394   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T41C4 000:361.538   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T41C4 000:662.859   Failed to connect to J-Link GUI Server.
+T41C4 000:662.979 - 311.546ms returns "O.K."
+T41C4 000:663.018 JLINK_GetEmuCaps()
+T41C4 000:663.044 - 0.020ms returns 0x88EA5833
+T41C4 000:663.066 JLINK_TIF_GetAvailable(...)
+T41C4 000:663.741 - 0.674ms
+T41C4 000:663.789 JLINK_SetErrorOutHandler(...)
+T41C4 000:663.806 - 0.016ms
+T41C4 000:663.879 JLINK_ExecCommand("ProjectFile = "C:\ncontroller_v5_mspm0g3507_20250520\keil\JLinkSettings.ini"", ...). 
+T41C4 000:677.385 - 13.506ms returns 0x00
+T41C4 000:679.111 JLINK_ExecCommand("Device = MSPM0G3507", ...). 
+T41C4 000:683.038   Device "MSPM0G3507" selected.
+T41C4 000:683.407 - 4.276ms returns 0x00
+T41C4 000:683.422 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T41C4 000:683.432 - 0.001ms returns 0x01
+T41C4 000:683.440 JLINK_GetHardwareVersion()
+T41C4 000:683.447 - 0.006ms returns 70000
+T41C4 000:683.476 JLINK_GetDLLVersion()
+T41C4 000:683.482 - 0.006ms returns 79211
+T41C4 000:683.489 JLINK_GetOEMString(...)
+T41C4 000:683.496 JLINK_GetFirmwareString(...)
+T41C4 000:683.501 - 0.005ms
+T41C4 000:686.797 JLINK_GetDLLVersion()
+T41C4 000:686.809 - 0.012ms returns 79211
+T41C4 000:686.816 JLINK_GetCompileDateTime()
+T41C4 000:686.822 - 0.005ms
+T41C4 000:687.879 JLINK_GetFirmwareString(...)
+T41C4 000:687.890 - 0.011ms
+T41C4 000:689.213 JLINK_GetHardwareVersion()
+T41C4 000:689.226 - 0.012ms returns 70000
+T41C4 000:690.404 JLINK_GetSN()
+T41C4 000:690.417 - 0.012ms returns 20090928
+T41C4 000:691.857 JLINK_GetOEMString(...)
+T41C4 000:694.142 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T41C4 000:695.828 - 1.685ms returns 0x00
+T41C4 000:695.875 JLINK_HasError()
+T41C4 000:695.923 JLINK_SetSpeed(5000)
+T41C4 000:696.297 - 0.375ms
+T41C4 000:696.327 JLINK_GetId()
+T41C4 000:806.874   Failed to attach to CPU. Trying connect under reset.
+T41C4 001:357.197   Connect fallback: Reset via Reset pin & Connect.
+T41C4 001:524.865 - 828.537ms returns 0x00000000
+T41C4 002:879.848 JLINK_Close()
+T41C4 002:892.992 - 13.143ms
+T41C4 002:893.008   
+T41C4 002:893.013   Closed
