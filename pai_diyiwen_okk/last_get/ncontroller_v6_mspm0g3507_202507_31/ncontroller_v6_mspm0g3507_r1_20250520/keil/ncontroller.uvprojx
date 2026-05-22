@@ -629,6 +629,11 @@
               <FileType>1</FileType>
               <FilePath>..\driver\us100.c</FilePath>
             </File>
+            <File>
+              <FileName>uart1_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\uart1_dma.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -708,6 +713,11 @@
               <FileName>attitude_selfstable.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\apply\attitude_selfstable.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart1_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\apply\uart1_parser.c</FilePath>
             </File>
           </Files>
         </Group>
