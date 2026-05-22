@@ -67,13 +67,12 @@ typedef struct
 
 void SDK_Data_Receive_Prepare_1(uint8_t data);
 void SDK_Data_Receive_Prepare_2(uint8_t data);
-void parse_char(char c);   /* DEPRECATED — use uart1_parser_feed() */
+// void parse_char(char c);   /* DEPRECATED — use uart1_parser_feed() */
 
 extern Target_Check camera1,camera2;
 /* DEPRECATED — use uart1_parser_get_data() instead */
-extern int values[2];
-extern int state_my;
+// extern int values[2];
+// extern int state_my;
 extern uint8_t pai_flag;
-extern VisionData g_vision_data;
 #endif
 
